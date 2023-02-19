@@ -1,37 +1,18 @@
-﻿var input = string.Empty;
+﻿using Ninject;
+using System.Reflection;
 
-do
+namespace AhmedTarekTutorial.ConsoleProject;
+
+class Program
 {
-    Console.WriteLine("Welcome to my console app");
-    Console.WriteLine("[1] Say Hello?");
-    Console.WriteLine("[2] Say Goodbye?");
-    Console.WriteLine("");
-    Console.Write("Please enter a valid choice: ");
+    private static IProgramManager m_ProgramManager = null;
 
-    input = Console.ReadLine();
-
-    if (input == "1" || input == "2")
+    static void Main(string[] args)
     {
-        Console.Write("Please enter your name: ");
-        
-        string name = Console.ReadLine();
+        var kernel = new StandardKernel();
+        kernel.Load(Assembly.GetExecutingAssembly());
 
-        if (input == "1")
-        {
-            Console.WriteLine("Hello " + name);
-        }
-        else
-        {
-            Console.WriteLine("Goodbye " + name);
-        }
-
-        Console.WriteLine("");
-        Console.Write("Press any key to exit... ");
-        Console.ReadKey();
-    }
-    else
-    {
-        Console.Clear();
+        m_ProgramManager = kernel.Get<IProgramManager>();
+        m_ProgramManager.Run();
     }
 }
-while (input != "1" && input != "2");
