@@ -21,4 +21,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AhmedTarekTutorial.ClassLibProject\AhmedTarekTutorial.ClassLibProject.csproj" />
+  </ItemGroup>
+
 </Project>
