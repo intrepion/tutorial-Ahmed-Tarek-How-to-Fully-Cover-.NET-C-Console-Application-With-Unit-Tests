@@ -4,8 +4,8 @@ namespace AhmedTarekTutorial.XUnitProject;
 
 public class ProgramManagerTests
 {
-    private ConsoleManagerStub m_ConsoleManager = null;
-    private ProgramManager m_ProgramManager = null;
+    private ConsoleManagerStub m_ConsoleManager;
+    private ProgramManager m_ProgramManager;
 
     public ProgramManagerTests()
     {

@@ -5,7 +5,7 @@ namespace AhmedTarekTutorial.ConsoleProject;
 
 class Program
 {
-    private static IProgramManager m_ProgramManager = null;
+    private static IProgramManager? m_ProgramManager;
 
     static void Main(string[] args)
     {

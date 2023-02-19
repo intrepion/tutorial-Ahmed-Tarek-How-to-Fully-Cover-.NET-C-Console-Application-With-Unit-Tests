@@ -34,7 +34,7 @@ public class ConsoleManager : ConsoleManagerBase
 
     public override string ReadLine()
     {
-        return Console.ReadLine();
+        return Console.ReadLine() ?? string.Empty;
     }
 
     public override void Write(string value)
@@ -53,8 +53,8 @@ public class ConsoleManagerStub : ConsoleManagerBase
     private int m_CurrentOutputEntryNumber;
     private readonly List<string> m_Outputs = new List<string>();
 
-    public event Action<int> OutputsUpdated;
-    public event Action OutputsCleared;
+    public event Action<int>? OutputsUpdated;
+    public event Action? OutputsCleared;
 
     public Queue<object> UserInputs { get; } = new Queue<object>();
 
