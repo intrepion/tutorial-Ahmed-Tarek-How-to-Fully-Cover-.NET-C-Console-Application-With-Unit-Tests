@@ -21,8 +21,8 @@ public class ProgramManager : ProgramManagerBase
 
     public override void Run()
     {
-    string input;
-        
+        string input;
+
         do
         {
             m_ConsoleManager.WriteLine("Welcome to my console app");
