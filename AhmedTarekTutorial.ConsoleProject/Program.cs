@@ -1,4 +1,5 @@
-﻿using Ninject;
+﻿using AhmedTarekTutorial.ClassLibProject;
+using Ninject;
 using System.Reflection;
 
 namespace AhmedTarekTutorial.ConsoleProject;

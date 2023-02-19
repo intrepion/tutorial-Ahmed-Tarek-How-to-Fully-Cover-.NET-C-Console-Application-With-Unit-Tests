@@ -1,4 +1,6 @@
-namespace AhmedTarekTutorial.ConsoleProject;
+using AhmedTarekTutorial.ClassLibProject;
+
+namespace AhmedTarekTutorial.ClassLibProject;
 
 public interface IProgramManager
 {

@@ -1,3 +1,4 @@
+using AhmedTarekTutorial.ClassLibProject;
 using Ninject.Modules;
 
 namespace AhmedTarekTutorial.ConsoleProject;

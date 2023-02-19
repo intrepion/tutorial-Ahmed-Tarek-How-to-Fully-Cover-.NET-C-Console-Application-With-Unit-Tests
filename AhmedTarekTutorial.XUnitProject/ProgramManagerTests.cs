@@ -1,3 +1,4 @@
+using AhmedTarekTutorial.ClassLibProject;
 using AhmedTarekTutorial.ConsoleProject;
 
 namespace AhmedTarekTutorial.XUnitProject;
