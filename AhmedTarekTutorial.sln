@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhmedTarekTutorial.ClassLib
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhmedTarekTutorial.ConsoleProject", "AhmedTarekTutorial.ConsoleProject\AhmedTarekTutorial.ConsoleProject.csproj", "{1AFCA0DE-2BB6-47F3-AC9D-4C58301194C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhmedTarekTutorial.XUnitProject", "AhmedTarekTutorial.XUnitProject\AhmedTarekTutorial.XUnitProject.csproj", "{878FF5F8-39A5-411F-96EC-FE2B019ABC6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{1AFCA0DE-2BB6-47F3-AC9D-4C58301194C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AFCA0DE-2BB6-47F3-AC9D-4C58301194C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AFCA0DE-2BB6-47F3-AC9D-4C58301194C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878FF5F8-39A5-411F-96EC-FE2B019ABC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878FF5F8-39A5-411F-96EC-FE2B019ABC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878FF5F8-39A5-411F-96EC-FE2B019ABC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878FF5F8-39A5-411F-96EC-FE2B019ABC6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
